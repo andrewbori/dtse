@@ -1,0 +1,29 @@
+{
+  "Status": "active",
+  "Sites": {
+    "LimeTorrents": {
+      "BaseUrl": "https://www.limetorrents.com",
+      "Query": "/searchrss/%1$s/"
+    },
+    "NyaaTorrents": {
+      "BaseUrl": "https://nyaa.si",
+      "Query": "/?page=rss&q=%1$s"
+    },
+    "ThePirateBay": {
+      "BaseUrl": "https://pirateproxy.cc",
+      "Query": "/search/%1$s/0/%2$s/0"
+    },
+    "Rarbg": {
+      "BaseUrl": "https://torrentapi.org/pubapi_v2.php",
+      "Query": "?mode=search&search_string=%1$s&ranked=0&sort=%2$s&format=json_extended&token=%3$s"
+    },
+    "TorrentDownloads": {
+      "BaseUrl": "https://www.torrentdownloads.me",
+      "Query": "/rss.xml?type=search&search=%1$s"
+    },
+    "Yts": {
+      "BaseUrl": "https://yts.am/api/v2/list_movies.json",
+      "Query": "?query_term=%1$s&sort_by=%2$s"
+    }
+  }
+}
